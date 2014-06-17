@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:composite="http://java.sun.com/jsf/composite"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://xmlns.jcp.org/jsf/passthrough">
+	
+
+
+	<composite:interface>
+		<composite:attribute name="category"></composite:attribute>
+		<composite:facet name="buttons"></composite:facet>
+	</composite:interface>
+	
+	<composite:implementation>
+				Category Name<br/>
+				<h:inputText	id="name"
+								value="#{cc.attrs.category.name}"
+								p:placeholder="Name"
+								styleClass="form-control"/>
+								<br/>
+								<br/>
+			
+			Category Description<br/>
+			<h:inputTextarea	id="description"
+								value="#{cc.attrs.category.description}"
+								p:placeholder="description"
+								styleClass="form-control" 
+								rows="5"/>	
+								<br/>
+			<div class="btn-toolbar" role="toolbar"> <ui:remove>This class "btn-toolbar is use by the Bootstrap to separate buttons consistently</ui:remove>						
+				<composite:renderFacet name="buttons"></composite:renderFacet>
+			</div>				
+	</composite:implementation>
+</html>

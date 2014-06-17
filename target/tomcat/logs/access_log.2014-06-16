@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [16/Jun/2014:08:33:57 -0300] "GET /osms/faces/category/searchCategory.xhtml HTTP/1.1" 500 13363 http-bio-8080-exec-8 22312
+0:0:0:0:0:0:0:1 - - [16/Jun/2014:08:34:12 -0300] "GET /osms/faces/category/searchCategory.xhtml HTTP/1.1" 500 13363 http-bio-8080-exec-7 1045
+0:0:0:0:0:0:0:1 - - [16/Jun/2014:08:37:31 -0300] "GET /osms/faces/category/searchCategory.xhtml HTTP/1.1" 500 13363 http-bio-8080-exec-1 520
+0:0:0:0:0:0:0:1 - - [16/Jun/2014:08:37:33 -0300] "GET /osms/faces/category/searchCategory.xhtml HTTP/1.1" 500 13363 http-bio-8080-exec-2 16
+0:0:0:0:0:0:0:1 - - [16/Jun/2014:08:37:38 -0300] "GET /osms/faces/category/newCategory.xhtml HTTP/1.1" 200 2145 http-bio-8080-exec-3 150
+0:0:0:0:0:0:0:1 - - [16/Jun/2014:08:37:38 -0300] "GET /osms/lib/bootstrap-3.1.1-dist/css/bootstrap.min.css HTTP/1.1" 304 - http-bio-8080-exec-4 5
+0:0:0:0:0:0:0:1 - - [16/Jun/2014:08:37:39 -0300] "GET /osms/lib/jquery.min.js HTTP/1.1" 404 995 http-bio-8080-exec-5 2
+0:0:0:0:0:0:0:1 - - [16/Jun/2014:08:37:39 -0300] "GET /osms/lib/bootstrap-3.1.1-dist/js/bootstrap.min.js HTTP/1.1" 304 - http-bio-8080-exec-6 2
+0:0:0:0:0:0:0:1 - - [16/Jun/2014:08:37:39 -0300] "GET /osms/lib/bootstrap-3.1.1-dist/css/justified-nav.css HTTP/1.1" 304 - http-bio-8080-exec-7 2
+0:0:0:0:0:0:0:1 - - [16/Jun/2014:08:37:45 -0300] "GET /osms/faces/category/searchCategory.xhtml HTTP/1.1" 500 13363 http-bio-8080-exec-8 5

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:osms="http://java.sun.com/jsf/composite/osms"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>OSMS - Search Category</title>
+</head>
+<body>
+	<ui:composition template="/template.xhtml">
+		<ui:define name="title"> <ui:remove> Our template is separate in two parts named Title and Body </ui:remove>
+				Search Category	 
+		</ui:define>
+		
+		<ui:define name="body">
+				<h:form>
+					<osms:category category="#{searchCategory.}"> <ui:remove> This is the use of resources (category.xhtmil)</ui:remove>
+						<f:facet name="buttons"> <ui:remove> This tag is used to import a interpretable XHTML code</ui:remove>
+							<h:commandButton	value="Search"
+												
+												styleClass="btn btn-primary"/>
+						</f:facet>
+					</osms:category>
+					
+				</h:form>
+		</ui:define>
+		
+		
+	</ui:composition>
+	
+	
+	
+	
+</body>
+</html>
